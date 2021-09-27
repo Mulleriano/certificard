@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  background: #3f748a;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Roboto", sans-serif;
+  margin: 69px;
+}
+
+.container {
+  background: #ecf4ff;
+  color: #264653;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  border-radius: 20px;
+  padding: 69px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.fotoPerfil {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 460px;
+  max-height: 160px;
+}
+
+.titulo {
+  margin-left: 21px;
+}
+
+.titulo h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37px;
+}
+
+.titulo h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  border: 3px solid #264653;
+  color: #264653;
+  box-sizing: border-box;
+  border-radius: 100px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  background: #e9c46a;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+}
+
+.titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.projetos-item a {
+  color: #264653;
+  text-decoration: none;
+}
+
+.dark {
+  background: #264653;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  border-radius: 20px;
+}
+
+.dark .container {
+  background: #333439;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  border-radius: 20px;
+  color: #f7f7f7;
+}
+
+.dark .projetos {
+  color: #264653;
+}
+
+.dark .tema button {
+  background: #1c1c1c;
+  color: #f7f7f7;
+  border: 3px solid #f7f7f7;
+}
